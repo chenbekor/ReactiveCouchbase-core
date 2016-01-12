@@ -7,7 +7,7 @@ object ApplicationBuild extends Build {
   val appVersion      = "0.5-SNAPSHOT"
   val appScalaVersion = "2.11.7"
   //val appScalaBinaryVersion = "2.10"
-  val appScalaCrossVersions = Seq("2.11.1", "2.10.4")
+  val appScalaCrossVersions = Seq("2.11.7", "2.10.4")
 
   val local: Def.Initialize[Option[sbt.Resolver]] = version { (version: String) =>
     val localPublishRepo = "./repository"
